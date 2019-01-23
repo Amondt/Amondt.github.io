@@ -5,10 +5,19 @@ main {
 	color: #FAFAFA;
 }
 
+footer {
+	background: #485564;
+	color: #FAFAFA;
+}
+
 .icons-social a {
 	color: #FAFAFA;
 }
 
 .icons-social a svg path{
 	fill: #FAFAFA;
+}
+
+a {
+	color: #FAFAFA;
 }
