@@ -1,70 +1,276 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexandre Mondt - Learning Dev | Code Fanatic</title>
 
-	<title>Alexandre Mondt</title>
+<!-- Favicons
+    ================================================== -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-	<link rel="icon" href="icon/favicon.ico" type="image/png" />
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/styles.css">
-	<!-- <link rel="stylesheet" href="css/themes/indigo-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
-	<link rel="stylesheet" href="css/themes/grey-white.css">
-	<!-- <link rel="stylesheet" href="css/themes/white-indigo.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-blue.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-grey.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/white-red.css"> -->
-	<!-- <link rel="stylesheet" href="css/themes/yellow-black.css"> -->
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+<!-- <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet"> -->
 </head>
 <body>
-	<main>
-		<img class="photo" src="img/profil.jpg" alt="Alexandre Mondt Photo">
-		<div class="intro">Hello, I'm Alex!</div>
-		<div class="tagline">Learning Dev | Code Fanatic | Bleh</div>
-		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-		<div class="icons-social">
-			<a target="_blank" href="https://github.com/amondt"><i class="fab fa-github"></i></a>
-			<!-- <a target="_blank" href="https://twitter.com/flexdinesh"><i class="fab fa-twitter"></i></a> -->
-			<!-- <a target="_blank" href="https://stackoverflow.com/story/flexdinesh"><i class="fab fa-stack-overflow"></i></a> -->
-			<a target="_blank" href="https://www.linkedin.com/in/alexandre-mondt-5bb62997/"><i class="fab fa-linkedin"></i></a>
-			<!-- <a target="_blank" href="https://medium.com/@flexdinesh"><i class="fab fa-medium"></i></a> -->
-			<!-- <a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
-			<!-- <a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a> -->
-			<!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
-		</div>
-	</main>
-	<footer>
-		<div class="tim-berners">
-			<a href="https://amondt.github.io/starting-web-developpment/" target="_blank">Tim Berners-Lee</a>
-			<a href="https://github.com/Amondt/starting-web-developpment" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-		<div class="star-wars">
-			<a href="https://amondt.github.io/Star-Wars-Crawl/" target="_blank">Star Wars Crawl</a>
-			<a href="https://github.com/Amondt/Star-Wars-Crawl" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-		<div class="vcard">
-			<a href="https://amondt.github.io/VCard/" target="_blank">VCard</a>
-			<a href="https://github.com/Amondt/VCard" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-		<div class="cv">
-			<a href="https://amondt.github.io/Cv/" target="_blank">Curriculum Vitae</a>
-			<a href="https://github.com/Amondt/Cv/" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-		<div class="404">
-			<a href="https://amondt.github.io/404_page/" target="_blank">A 404 Error page</a>
-			<a href="https://github.com/Amondt/404_page" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-		<div class="git-base">
-			<a href="https://amondt.github.io/Learning_Environment/" target="_blank">Git base commands</a>
-			<a href="https://github.com/Amondt/Learning_Environment" target="_blank"><i class="fab fa-github"></i><br/>repo</a>
-		</div>
-	</footer>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div class="intro-text">
+              <h1>Alexandre Mondt</h1>
+              <p>Learning Dev | Code Fanatic</p>
+              <a href="#portfolio" class="btn btn-custom btn-lg page-scroll">Portfolio</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">About Me</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>Portfolio</h2>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".bootstrap">Bootstrap</a></li>
+            <li><a href="#" data-filter=".api">API</a></li>
+            <li><a href="#" data-filter=".html-css">Html | CSS</a></li>
+            <li><a href="#" data-filter=".javascript">Javascript</a></li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <!-- Mamma Mia -->
+        <div class="col-sm-6 col-md-4 bootstrap">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://amondt.github.io/learn-bootstrap/restaurant-project/index.html" target="_blank" title="Mamma Mia Restaurant">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Mamma Mia Restaurant</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/mamma-mia.jpg" class="img-responsive" alt="Mamma Mia Restaurant"> </a> </div>
+          </div>
+          <a href="https://github.com/Amondt/learn-bootstrap/tree/master/restaurant-project" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Wikipedia search API -->
+        <div class="col-sm-6 col-md-4 api">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://amondt.github.io/learn-API/exercices/wikiAPI.html" target="_blank" title="Wikipedia search API">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Wikipedia search API</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/wiki-API.jpg" class="img-responsive" alt="Wikipedia search API"> </a> </div>
+          </div>
+          <a href="https://github.com/Amondt/learn-API" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Jungle Banana Jungle -->
+        <div class="col-sm-6 col-md-4 html-css">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://estelle111.github.io/clicker-project" target="_blank" title="Jungle Banana Jungle">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Jungle Banana Jungle</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/jungle-banana-jungle.jpg" class="img-responsive" alt="Jungle Banana Jungle"> </a> </div>
+          </div>
+          <a href="https://github.com/Estelle111/clicker-project/tree/experimental" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Star-Wars crawl -->
+        <div class="col-sm-6 col-md-4 html-css">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://amondt.github.io/learn-HTML-CSS-MD/StarWars-crawl/index.html" target="_blank" title="Star-Wars crawl">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Star-Wars crawl</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/star-wars-crawl.jpg" class="img-responsive" alt="Star-Wars crawl"> </a> </div>
+          </div>
+          <a href="https://github.com/Amondt/learn-HTML-CSS-MD/tree/master/StarWars-crawl" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Curriculum vitae -->
+        <div class="col-sm-6 col-md-4 html-css">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://amondt.github.io/learn-HTML-CSS-MD/CV/index.html" target="_blank" title="Curriculum vitae">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Curriculum vitae</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/CV.jpg" class="img-responsive" alt="Curriculum vitae"> </a> </div>
+          </div>
+          <a href="https://github.com/Amondt/learn-HTML-CSS-MD/tree/master/CV" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Tim-Berners-Lee -->
+        <div class="col-sm-6 col-md-4 html-css">
+          <div class="portfolio-item border">
+            <div class="hover-bg"> <a href="https://amondt.github.io/learn-HTML-CSS-MD/Tim-Berners-Lee/index.html" target="_blank" title="Tim-Berners-Lee">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Tim-Berners-Lee</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="img/portfolio/tim-berners-lee.jpg" class="img-responsive" alt="Tim-Berners-Lee"> </a> </div>
+          </div>
+          <a href="https://github.com/Amondt/learn-HTML-CSS-MD/tree/master/Tim-Berners-Lee" target="_blank" title="github repo">
+            <div class="githubRepo hover-bg">
+              <i class="fab fa-github"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Robot Shooter 2D | Piou-Piou -->
+        <div class="col-sm-6 col-md-4 javascript">
+            <div class="portfolio-item border">
+              <div class="hover-bg"> <a href="https://amondt.github.io/learn-js/canvas/piou-piou-w3.html" target="_blank" title="Piou-Piou">
+                <div class="hover-text">
+                  <div class="overlay-caption">
+                    <div class="overlay-content">
+                      <h4>Piou-Piou</h4>
+                    </div>
+                  </div>
+                </div>
+                <img src="img/portfolio/piou-piou.jpg" class="img-responsive" alt="Piou-Piou"> </a> </div>
+            </div>
+            <a href="https://github.com/Amondt/learn-js/tree/master/canvas" target="_blank" title="github repo">
+              <div class="githubRepo hover-bg">
+                <i class="fab fa-github"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="col-md-6">
+      <div class="section-title">
+        <div class="row"> 
+          <img src="img/about.jpg" class="img-responsive pull-left rounded" id="aboutPhoto" alt="profile photo">
+          <div class="flex-row">
+            <i class="fa fa-envelope"></i>
+            <p>mondt.alexandre@gmail.com</p>
+          </div>
+          <div class="flex-row">
+            <i class="fa fa-phone-square"></i>
+            <p>+32 493 56 53 85</p>
+          </div>
+          <div class="flex-row">
+            <i class="fa fa-birthday-cake"></i>
+            <p>29 septembre 1994</p>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-github-alt"></i></a></li>
+              <li><a href="#"><i class="fab fa-stack-overflow"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="section-title">
+        <p>For questions, please contact me by email at <strong>mondt.alexandre@gmail.com</strong> or fill out the form below.</p>
+      </div>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control textarea-max-size" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <p>&copy; 2019 Alexandre Mondt. All rights reserved.</p>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
