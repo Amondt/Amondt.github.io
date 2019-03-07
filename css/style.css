@@ -222,7 +222,7 @@ ol.type li a:hover {
 	display: flex;
 	justify-content: center;
 	transition: .5s;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 3px 3px;
 	box-shadow: 1px 1px 5px #666, 1px -1px 5px #666;
 }
 .githubRepo i.fab {
