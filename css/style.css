@@ -223,7 +223,7 @@ ol.type li a:hover {
 	justify-content: center;
 	transition: .5s;
 	border-radius: 0 0 5px 5px;
-	box-shadow: 1px 1px 5px #2A2A2A;
+	box-shadow: 1px 1px 5px #666, 1px -1px 5px #666;
 }
 .githubRepo i.fab {
 	transition: .5s;
