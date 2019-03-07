@@ -214,7 +214,7 @@ ol.type li a:hover {
 }
 .border {
 	/* border: 1px solid #666; */
-	box-shadow: 1px -1px 5px #666;
+	box-shadow: 1px -1px 5px #666, 1px 1px 5px #666;
 }
 .githubRepo {
 	margin: 0 0 20px 0;
