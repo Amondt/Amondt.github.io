@@ -8,7 +8,7 @@ body, html {
 	height: 100% !important;
 }
 h1 {
-	color: #333;
+	color: #CCC;
 	font-size: 64px;
 	font-weight: 800;
 	margin-top: 0;
@@ -85,12 +85,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .section-title {
 	margin-bottom: 50px;
 }
+#header {
+	box-shadow: 0 1px 5px 0 #333;
+}
 .btn-custom {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
-	color: #444;
+	color: #CCC;
 	background-color: transparent;
-	border: 2px solid #444;
+	border: 2px solid #CCC;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 14px;
@@ -100,7 +103,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.5s;
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
-	color: #eee;
+	color: #EEE;
 	background-color: #444;
 }
 /* Header Section */
@@ -109,19 +112,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	margin-bottom: 80px;
-	background: url(../img/intro-bg.jpg) no-repeat right 38%;
-	background-color: #e5e5e5;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-.intro .overlay {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d5dade+100&0.5+0,0+100 */
-	background: -moz-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(255,255,255,0.5) 0%, rgba(213,218,222,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00d5dade', GradientType=1 ); /* IE6-9 */
+	background-color: #262626;
 }
 .intro .fa {
 	font-size: 94px;
@@ -129,7 +120,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', e
 	color: #fff;
 }
 .intro p {
-	color: #444;
+	color: #CCC;
 	margin: 10px 0 20px 0;
 	font-size: 22px;
 }
@@ -138,6 +129,13 @@ header .intro-text {
 	padding-bottom: 200px;
 }
 /* Portfolio Section */
+.section-title h3 {
+	margin-top: 0;
+	font-size: 20px;
+}
+.section-title h2 {
+	margin-bottom: 0;
+}
 #portfolio {
 	padding: 40px 0 100px 0;
 }
@@ -218,11 +216,11 @@ ol.type li a:hover {
 }
 .githubRepo {
 	margin: 0 0 20px 0;
-	background: #666;
+	background: #262626;
 	display: flex;
 	justify-content: center;
 	transition: .5s;
-	border-radius: 0 0 3px 3px;
+	border-radius: 0 0 2px 2px;
 	box-shadow: 1px 1px 5px #666, 1px -1px 5px #666;
 }
 .githubRepo i.fab {
@@ -235,14 +233,14 @@ ol.type li a:hover {
 	background: rgba(102, 102, 102, 0.274);
 }
 .githubRepo:hover i.fab {
-	color: #333;
+	color: #999;
 }
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #333;
-	background: rgba(255, 255, 255, 0.692);
+	background: #ffffffce;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -257,6 +255,14 @@ ol.type li a:hover {
 	display: table-cell;
 	vertical-align: middle;
 }
+.overlay-content p {
+	color: #666;
+}
+.overlay-content h4 {
+	color: #666;
+	font-weight: 600;
+
+}
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
@@ -264,10 +270,12 @@ ol.type li a:hover {
 #contact {
 	padding: 60px 0 60px 0;
 	background: #262626;
+	color: #999;
+	box-shadow: 0 -1px 5px 0 #333;
 }
 #contact h2 {
 	font-weight: 400;
-	color: #777;
+	color: #999;
 	margin: 60px 0;
 }
 #contact img {
@@ -275,7 +283,7 @@ ol.type li a:hover {
 	margin: 5px 30px 10px 0;
 }
 #contact p {
-	color: #666;
+	color: #999;
 	margin-bottom: 20px;
 	line-height: 24px;
 }
@@ -289,7 +297,7 @@ ol.type li a:hover {
 #contact .social i.fab {
 	font-size: 26px;
 	padding: 4px;
-	color: #777;
+	color: #999;
 	transition: all 0.3s;
 }
 #contact .social i.fab:hover {
@@ -314,8 +322,8 @@ label {
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.42857143;
-	color: #aaa;
-	background-color: #444;
+	color: #AAA;
+	background-color: #3b3b3b;
 	background-image: none;
 	border: 0;
 	border-radius: 0;
@@ -332,22 +340,22 @@ label {
 	box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-color: #777;
+color: #999;
 }
 .form-control:-moz-placeholder {
-color: #777;
+color: #999;
 }
 .form-control::-moz-placeholder {
-color: #777;
+color: #999;
 }
 .form-control:-ms-input-placeholder {
-color: #777;
+color: #999;
 }
 #contact .btn-default {
 	font-weight: 400;
-	color: #666;
+	color: #999;
 	background-color: transparent;
-	border: 2px solid #666;
+	border: 2px solid #999;
 	padding: 10px 20px;
 	margin: 0;
 	font-size: 15px;
@@ -367,7 +375,7 @@ color: #777;
 }
 #footer p {
 	font-size: 15px;
-	color: #666;
+	color: #999;
 }
 
 /* Css perso */
