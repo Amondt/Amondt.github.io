@@ -303,6 +303,12 @@ ol.type li a:hover {
 #contact .social i:hover {
 	color: #eee;
 }
+.contactPresLink {
+	color: #999;
+}
+.contactPresLink:hover {
+	color: #eee;
+} 
 #contact form {
 	padding: 0;
 }
